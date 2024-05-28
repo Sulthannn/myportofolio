@@ -1,5 +1,5 @@
 import { GiClawSlashes } from "react-icons/gi";
-import { FaInstagram, FaWhatsapp, FaLocationDot, FaEnvelope, FaGithub, FaSquareGitlab } from "react-icons/fa6";
+import { FaInstagram, FaWhatsapp, FaLocationDot, FaEnvelope, FaGithub, FaSquareGitlab, FaFilePdf } from "react-icons/fa6";
 
 const Aside = () => {
   return (
@@ -61,6 +61,32 @@ const Aside = () => {
 
             <li className="contact-item">
               <div className="icon-box">
+                <FaGithub/>
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div className="contact-info">
+                <p className="contact-title">Github</p>
+
+                <a href="https://github.com/Sulthannn" target="_blank"><address>github.com/Sulthannn</address></a>
+              </div>
+            </li>
+
+            <li className="contact-item">
+              <div className="icon-box">
+                <FaSquareGitlab/>
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div className="contact-info">
+                <p className="contact-title">Gitlab</p>
+
+                <a href="https://gitlab.com/izzasulthan" target="_blank"></a><address>gitlab.com/izzasulthan</address>
+              </div>
+            </li>
+
+            <li className="contact-item">
+              <div className="icon-box">
                 <FaWhatsapp/>
               </div>
 
@@ -86,31 +112,10 @@ const Aside = () => {
               </div>
             </li>
 
-            <li className="contact-item">
-              <div className="icon-box">
-                <FaGithub/>
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
+            <div className="cv-button-container">
+              <a href="https://drive.google.com/drive/folders/1aaGyrUE0-8FAi3h3NtS6gKcaJtBOOK0_?usp=sharing" target="_blank" className="cv-button">CV</a>
+            </div>
 
-              <div className="contact-info">
-                <p className="contact-title">Github</p>
-
-                <a href="https://github.com/Sulthannn" target="_blank"><address>github.com/Sulthannn</address></a>
-              </div>
-            </li>
-
-            <li className="contact-item">
-              <div className="icon-box">
-                <FaSquareGitlab/>
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-
-              <div className="contact-info">
-                <p className="contact-title">Gitlab</p>
-
-                <a href="https://gitlab.com/izzasulthan" target="_blank"></a><address>gitlab.com/izzasulthan</address>
-              </div>
-            </li>
           </ul>
 
           <div className="separator"></div>
