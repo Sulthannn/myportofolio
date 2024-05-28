@@ -1,0 +1,79 @@
+[
+  {
+    "title": "CineTracker",
+    "link": "https://cinetracker.netlify.app",
+    "image": "/images/cinetracker.png",
+    "description": "A simple web app that uses React.js to store watched movie data and display it in a list, by retrieving data from the movie API.",
+    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "RoboNoid",
+    "link": "https://robonoid.netlify.app",
+    "image": "/images/robonoid.png",
+    "description": "A responsive and interactive web app built with React.js that promotes the features of humanoid robots.",
+    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "Filmdex",
+    "link": "https://filmdex.netlify.app",
+    "image": "/images/filmdex.png",
+    "description": "A fetching website employing Vue.js to interact with an API, elegantly presenting a curated list of movies.",
+    "icons": ["BiLogoVuejs", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "Infocus News",
+    "link": "https://infocusnews.netlify.app",
+    "image": "/images/infocus.png",
+    "description": "A news web app that utilizes Vue.js for the user interface, connected to the Laravel Rest API to perform data manipulation.",
+    "icons": ["FaLaravel", "BiLogoVuejs", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "CineList",
+    "link": "https://cinelistt.netlify.app",
+    "image": "/images/cinelist.png",
+    "description": "A fetching website that leverages the React.js JavaScript framework,  with Next.js for interaction with the API, elegantly presenting a list of movies.",
+    "icons": ["SiNextdotjs", "BiLogoReact", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "Desa Tejang",
+    "link": "https://desabinaantejangpulausebesi.com",
+    "image": "/images/tejang.png",
+    "description": "The Tejang Village web app provides easy access to the latest information and complaint services to make it easier for residents to access information and report problems online.",
+    "icons": ["DiCodeigniter", "DiJqueryLogo", "DiBootstrap"]
+  },
+  {
+    "title": "COMBBIS",
+    "link": "https://combbis.000webhostapp.com/home.php",
+    "image": "/images/combbis.png",
+    "description": "Cartography Of Mangroves In The Bangka Belitung Islands, a web app for mapping mangroves in Bangka Belitung, including distribution, health and deforestation levels.",
+    "icons": ["BiLogoPhp", "SiLeaflet", "DiJqueryLogo", "DiBootstrap"]
+  },
+  {
+    "title": "Mangrovia",
+    "link": "https://mangrovia.onrender.com",
+    "image": "/images/mangrovia.png",
+    "description": "Mangrove Identification Area, a Artificial Intelligence web app to identify types of mangroves that are suitable for planting on certain land and recognize types of mangroves based on images.",
+    "icons": ["SiDjango", "SiLeaflet", "DiJqueryLogo", "DiBootstrap"]
+  },
+  {
+    "title": "Logistik Kelautan",
+    "link": "https://logkel-kdserang.upi.edu",
+    "image": "/images/lk.png",
+    "description": "This website presents all information regarding the Marine Logistics Study Program, Indonesian Education University.",
+    "icons": ["SiWordpress", "BiLogoPhp"]
+  },
+  {
+    "title": "ANDINI",
+    "link": "#Sorry, still in development stage:)",
+    "image": "/images/andiniapp.png",
+    "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web app to submit adjurations, attach required documents and monitor the status of their applications efficiently.",
+    "icons": ["FaLaravel", "DiBootstrap"]
+  },
+  {
+    "title": "DiveGear",
+    "link": "#Sorry, still in development stage:)",
+    "image": "/images/dive.png",
+    "description": "E-commerce platform that specializes in selling various kinds of diving equipment from various brands",
+    "icons": ["FaLaravel", "SiLivewire", "BiLogoTailwindCss"]
+  }
+]
