@@ -74,6 +74,18 @@ const toolsData = [
   {
     icon: "../images/sql.png",
     description: "SQL"
+  },
+  {
+    icon: "../images/jquery.png",
+    description: "jQuery"
+  },
+  {
+    icon: "../images/leaflet.png",
+    description: "Leaflet.js"
+  },
+  {
+    icon: "../images/liveware.webp",
+    description: "Livewire"
   }
 ];
 
