@@ -1643,6 +1643,10 @@ textarea.form-input::-webkit-resizer {
    * REUSED STYLE
    */
 
+   .service-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   .sidebar,
   article {
     width: 700px;
@@ -1885,7 +1889,6 @@ textarea.form-input::-webkit-resizer {
   /**
    * REUSED STYLE
    */
-
   .sidebar,
   article {
     width: auto;
@@ -2045,7 +2048,7 @@ textarea.form-input::-webkit-resizer {
   
   .blog-posts-list .blog-card:hover {
     transform: scale(1.05);
-  }  
+  }
 }
 
 @media screen and (max-width: 480px) {
