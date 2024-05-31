@@ -80,7 +80,7 @@
     "title": "ANDINI",
     "link": "#Sorry, still in development stage:)",
     "image": "/images/andiniapp.png",
-    "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web app to submit adjurations, attach required documents and monitor the status of their applications efficiently.",
+    "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web app developed in collaboration with Dinas Komunikasi dan Informatika Blitar to submit requests, attach required documents, and efficiently monitor the status of early marriage applications.",
     "icons": ["FaLaravel", "DiBootstrap"]
   }
 ]
