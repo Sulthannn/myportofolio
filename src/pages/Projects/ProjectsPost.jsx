@@ -1,10 +1,10 @@
 import React from 'react';
 import { FaLaravel } from "react-icons/fa6";
 import { BiLogoReact, BiLogoTailwindCss, BiLogoVuejs, BiLogoPhp } from "react-icons/bi";
-import { SiNextdotjs, SiLeaflet, SiDjango, SiWordpress, SiLivewire } from "react-icons/si";
+import { SiNextdotjs, SiLeaflet, SiDjango, SiWordpress, SiAxios } from "react-icons/si";
 import { DiCodeigniter, DiBootstrap, DiJqueryLogo } from "react-icons/di";
 
-const BlogPost = ({ title, image, description, link, icons }) => {
+const ProjectsPost = ({ title, image, description, link, icons }) => {
   const iconMap = {
     FaLaravel: FaLaravel,
     SiNextdotjs: SiNextdotjs,
@@ -18,7 +18,7 @@ const BlogPost = ({ title, image, description, link, icons }) => {
     SiLeaflet: SiLeaflet,
     SiDjango: SiDjango,
     SiWordpress: SiWordpress,
-    SiLivewire: SiLivewire
+    SiAxios: SiAxios
   };
   return (
     <li className="blog-post-item">
@@ -43,4 +43,4 @@ const BlogPost = ({ title, image, description, link, icons }) => {
   );
 };
 
-export default BlogPost;
+export default ProjectsPost;

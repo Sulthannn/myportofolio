@@ -70,17 +70,17 @@
     "icons": ["BiLogoPhp", "SiLeaflet", "DiJqueryLogo", "DiBootstrap"]
   },
   {
-    "title": "DiveGear",
-    "link": "#Sorry, still in development stage:)",
-    "image": "/images/dive.png",
-    "description": "E-commerce platform that specializes in selling various kinds of diving equipment from various brands",
-    "icons": ["FaLaravel", "SiLivewire", "BiLogoTailwindCss"]
+    "title": "Pegawaiku",
+    "link": "https://pegawaiku.com.sulthanizza.web.id",
+    "image": "/images/pegawaiku.png",
+    "description": "A web app for recording employee data that I developed as a practical competency test assignment for Junior Web Developer certification from the Badan Nasional Sertifikasi Profesi (BNSP).",
+    "icons": ["FaLaravel", "SiAxios", "BiLogoTailwindCss"]
   },
   {
     "title": "ANDINI",
-    "link": "#Sorry, still in development stage:)",
+    "link": "https://andini.caritahu.web.id",
     "image": "/images/andiniapp.png",
-    "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web app developed in collaboration with Dinas Komunikasi dan Informatika Blitar to submit requests, attach required documents, and efficiently monitor the status of early marriage applications.",
+    "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web application developed with partners in collaboration with PT. Arkatama Multi Solusindo to submit requests, attach the required documents, and monitor the status of early marriage applications efficiently.",
     "icons": ["FaLaravel", "DiBootstrap"]
   }
 ]

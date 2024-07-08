@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { FaLaravel } from "react-icons/fa6";
 import { BiLogoReact, BiLogoTailwindCss, BiLogoVuejs, BiLogoPhp } from "react-icons/bi";
-import { SiNextdotjs, SiLeaflet, SiDjango, SiWordpress, SiLivewire } from "react-icons/si";
+import { SiNextdotjs, SiLeaflet, SiDjango, SiWordpress, SiAxios } from "react-icons/si";
 import { DiCodeigniter, DiBootstrap, DiJqueryLogo } from "react-icons/di";
-import BlogPost from './BlogPost';
-import './Blogs.css'
+import ProjectsPost from './ProjectsPost';
+import './Projects.css'
 
 const iconMap = {
   FaLaravel: FaLaravel,
@@ -19,10 +19,10 @@ const iconMap = {
   SiLeaflet: SiLeaflet,
   SiDjango: SiDjango,
   SiWordpress: SiWordpress,
-  SiLivewire: SiLivewire
+  SiAxios: SiAxios
 };
 
-const Blogs = () => {
+const Projects = () => {
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(4); // Number of posts per page
@@ -53,7 +53,7 @@ const Blogs = () => {
         {currentPosts.map((post, index) => {
             const Icon = iconMap[post.icon];
             return (
-              <BlogPost
+              <ProjectsPost
                 key={index}
                 title={post.title}
                 link={post.link}
@@ -92,4 +92,4 @@ const Blogs = () => {
   );
 }
 
-export default Blogs;
+export default Projects;

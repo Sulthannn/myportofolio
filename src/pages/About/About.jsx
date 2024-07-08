@@ -84,8 +84,8 @@ const toolsData = [
     description: "Leaflet.js"
   },
   {
-    icon: "../images/liveware.webp",
-    description: "Livewire"
+    icon: "../images/axios.png",
+    description: "Axios"
   }
 ];
 
