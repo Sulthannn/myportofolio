@@ -78,9 +78,16 @@
   },
   {
     "title": "ANDINI",
-    "link": "https://andini.caritahu.web.id",
+    "link": "#Confidential-PrivateLink",
     "image": "/images/andiniapp.png",
     "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web application developed with partners in collaboration with PT. Arkatama Multi Solusindo to submit requests, attach the required documents, and monitor the status of early marriage applications efficiently.",
     "icons": ["FaLaravel", "DiBootstrap"]
+  },
+  {
+    "title": "BKI Activity",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/bki.png",
+    "description": "A web app employee attendance at a Badan Usaha Milik Negara (BUMN) company which functions to record attendance and time coordinates, as well as monitor employee planning and activities while working.",
+    "icons": ["BiLogoPhp", "DiBootstrap"]
   }
 ]
