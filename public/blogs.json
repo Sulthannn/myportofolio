@@ -11,14 +11,14 @@
     "link": "https://desabinaantejangpulausebesi.com",
     "image": "/images/tejang.png",
     "description": "The Tejang Village web app provides easy access to the latest information and complaint services to make it easier for residents to access information and report problems online.",
-    "icons": ["DiCodeigniter", "DiJqueryLogo", "DiBootstrap"]
+    "icons": ["DiCodeigniter", "DiBootstrap"]
   },
   {
     "title": "Mangrovia",
     "link": "https://mangrovia.onrender.com",
     "image": "/images/mangrovia.png",
     "description": "Mangrove Identification Area, a Artificial Intelligence web app to identify types of mangroves that are suitable for planting on certain land and recognize types of mangroves based on images.",
-    "icons": ["SiDjango", "SiLeaflet", "DiJqueryLogo", "DiBootstrap"]
+    "icons": ["SiDjango", "DiBootstrap"]
   },
   {
     "title": "Infocus News",
@@ -32,7 +32,7 @@
     "link": "https://logkel-kdserang.upi.edu",
     "image": "/images/lk.png",
     "description": "This website presents all information regarding the Marine Logistics Study Program, Indonesian Education University.",
-    "icons": ["SiWordpress", "BiLogoPhp"]
+    "icons": ["SiWordpress"]
   },
   {
     "title": "RoboNoid",
@@ -67,14 +67,14 @@
     "link": "https://sulthanizza.web.id/home.php",
     "image": "/images/combbis.png",
     "description": "Cartography Of Mangroves In The Bangka Belitung Islands, a web app for mapping mangroves in Bangka Belitung, including distribution, health and deforestation levels.",
-    "icons": ["BiLogoPhp", "SiLeaflet", "DiJqueryLogo", "DiBootstrap"]
+    "icons": ["BiLogoPhp", "DiBootstrap"]
   },
   {
     "title": "Pegawaiku",
     "link": "https://pegawaiku.com.sulthanizza.web.id",
     "image": "/images/pegawaiku.png",
     "description": "A web app for recording employee data that I developed as a practical competency test assignment for Junior Web Developer certification from the Badan Nasional Sertifikasi Profesi (BNSP).",
-    "icons": ["FaLaravel", "SiAxios", "BiLogoTailwindCss"]
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
   },
   {
     "title": "ANDINI",
