@@ -64,7 +64,7 @@
   },
   {
     "title": "COMBBIS",
-    "link": "https://combbis.000webhostapp.com/home.php",
+    "link": "https://sulthanizza.web.id/home.php",
     "image": "/images/combbis.png",
     "description": "Cartography Of Mangroves In The Bangka Belitung Islands, a web app for mapping mangroves in Bangka Belitung, including distribution, health and deforestation levels.",
     "icons": ["BiLogoPhp", "SiLeaflet", "DiJqueryLogo", "DiBootstrap"]
