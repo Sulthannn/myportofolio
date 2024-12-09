@@ -7,6 +7,13 @@
     "icons": ["BiLogoReact", "BiLogoTailwindCss"]
   },
   {
+    "title": "Kalpataru",
+    "link": "https://kalpataru.menlhk.go.id",
+    "image": "/images/kalpataru.png",
+    "description": "An information system web application for the Kalpataru Awards, including registration for prospective recipients, to support the event management of the Ministry of Environment and Forestry.",
+    "icons": ["DiCodeigniter", "BiLogoTailwindCss"]
+  },
+  {
     "title": "Desa Tejang",
     "link": "https://desabinaantejangpulausebesi.com",
     "image": "/images/tejang.png",
@@ -59,7 +66,7 @@
     "title": "CineList",
     "link": "https://cinelistt.netlify.app",
     "image": "/images/cinelist.png",
-    "description": "A fetching website that leverages the React.js JavaScript framework,  with Next.js for interaction with the API, elegantly presenting a list of movies.",
+    "description": "A fetching website that leverages the React.js JavaScript framework, with Next.js for interaction with the API, elegantly presenting a list of movies.",
     "icons": ["SiNextdotjs", "BiLogoReact", "BiLogoTailwindCss"]
   },
   {
@@ -87,7 +94,21 @@
     "title": "BKI Activity",
     "link": "#Confidential-PrivateLink",
     "image": "/images/bki.png",
-    "description": "A web app employee attendance at a Badan Usaha Milik Negara (BUMN) company which functions to record attendance and time coordinates, as well as monitor employee planning and activities while working.",
+    "description": "An employee management platform for PT Biro Klasifikasi Indonesia (BKI) to log attendance, track time coordinates, and oversee planning and work activities seamlessly.",
     "icons": ["BiLogoPhp", "DiBootstrap"]
+  },
+  {
+    "title": "Vehicle Report",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/ppli.png",
+    "description": "A web app for daily vehicle inspection reporting at PT Prasadha Pamunah Limbah Industri (PPLI), enabling efficient data recording, tracking, and analysis of vehicle checks to support operational accuracy and compliance.",
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "Seminar PSI",
+    "link": "#In-Development",
+    "image": "/images/seminar.png",
+    "description": "A seminar management system for the Meteorology, Climatology, and Geophysics Agency (BMKG), built to streamline attendance monitoring and automate certificate issuance.",
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
   }
 ]
