@@ -1,37 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
-
 import { useEffect, useState } from "react"
 import Service from "./Service";
 
 const techData = [
-  {
-    icon: "../images/html.png",
-    description: "HTML"
-  },
-  {
-    icon: "../images/css.png",
-    description: "CSS"
-  },
-  {
-    icon: "../images/js.png",
-    description: "JavaScript"
-  },
-  {
-    icon: "../images/php.webp",
-    description: "PHP"
-  },
-  {
-    icon: "../images/React.webp",
-    description: "React.js"
-  },
-  {
-    icon: "../images/next.svg",
-    description: "Next.js"
-  },
-    {
-    icon: "../images/vue.webp",
-    description: "Vue.js"
-  },
   {
     icon: "../images/laravel-2.svg",
     description: "Laravel"
@@ -45,12 +15,16 @@ const techData = [
     description: "Django"
   },
   {
-    icon: "../images/boots.png",
-    description: "Bootstrap"
+    icon: "../images/React.webp",
+    description: "React.js"
   },
   {
-    icon: "../images/tailwind.svg",
-    description: "Tailwind"
+    icon: "../images/next.svg",
+    description: "Next.js"
+  },
+  {
+    icon: "../images/vue.webp",
+    description: "Vue.js"
   },
   {
     icon: "../images/wp.png",
@@ -68,12 +42,16 @@ const toolsData = [
     description: "Git"
   },
   {
-    icon: "../images/npm.png",
-    description: "NPM"
-  },
-  {
     icon: "../images/sql.png",
     description: "SQL"
+  },
+  {
+    icon: "../images/boots.png",
+    description: "Bootstrap"
+  },
+  {
+    icon: "../images/tailwind.svg",
+    description: "Tailwind"
   }
 ];
 
@@ -95,11 +73,11 @@ const About = () => {
 
     <section className="about-text">
       <p>
-        Hi everyone! My name is <b>Sulthan Izza Falqahi</b>, and I am an active student at an Indonesian Educational University with a strong interest in Web Developer. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. In my opinion, creating programs is an art that has aesthetic value.
+        Hi! I'm <b>Sulthan Izza Falqahi</b>, a web developer with hands-on experience in building real-world web applications for government institutions, academic departments, and businesses. I enjoy creating things on the internet, whether it's websites, applications, or anything in between. In my opinion, programming is an art form with aesthetic value.
       </p>
 
       <p>
-        I have experience in designing and developing web applications, with a solid understanding of object-oriented programming. My passion is to build websites that are not only functional and user-friendly but also visually appealing. Moreover, I strive to add a personal touch to every project, ensuring that each website stands out and is easy to use.
+        My passion is to building websites with a foundation in object-oriented programming and an understanding of UI/UX principles. I am committed to creating web solutions that are not only functional but also accessible and visually appealing. I enjoy breaking down complex problems into elegant digital experiences and remain enthusiastic about learning new technologies to grow as a developer.
       </p>
     </section>
 

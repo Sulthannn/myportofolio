@@ -1,59 +1,73 @@
 [
   {
-    "title": "My Portofolio",
-    "link": "https://portosulthanizza.netlify.app",
-    "image": "/images/porto.png",
-    "description": "My portofolio website that showcases my profile, skills and projects.",
-    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
-  },
-  {
     "title": "Kalpataru",
     "link": "https://kalpataru.menlhk.go.id",
     "image": "/images/kalpataru.png",
-    "description": "An information system web application for the Kalpataru Awards, including registration for prospective recipients, to support the event management of the Ministry of Environment and Forestry.",
+    "description": "Official information system for the Kalpataru Awards under the Ministry of Forestry. Includes registration and data management for national award candidates.",
     "icons": ["DiCodeigniter", "BiLogoTailwindCss"]
   },
   {
+  "title": "Whale Shark Tourism GIS",
+  "link": "#Confidential-PrivateLink",
+  "image": "/images/hiu.png",
+  "description": "A multilingual GIS web app to promote whale shark and information features ecotourism in Teluk Saleh. Built for Badan Riset dan Inovasi Nasional (BRIN).",
+  "icons": ["FaLaravel", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "ANDINI",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/andiniapp.png",
+    "description": "Early marriage dispensation web application featuring document upload and status tracking. Developed in collaboration with PT Arkatama Multi Solusindo.",
+    "icons": ["FaLaravel", "DiBootstrap"]
+  },
+  {
+    "title": "Vehicle Report",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/ppli.png",
+    "description": "A web app for daily vehicle inspection for an environmental services company, enabling efficient data recording, tracking, and analysis of vehicle checks to support operational accuracy and compliance.",
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
+  },
+  {
     "title": "Desa Tejang",
-    "link": "https://desabinaantejangpulausebesi.com",
+    "link": "#LiveLink-Expired",
     "image": "/images/tejang.png",
-    "description": "The Tejang Village web app provides easy access to the latest information and complaint services to make it easier for residents to access information and report problems online.",
+    "description": "The Tejang Village web app provides easy access to the latest information and complaint services to make it easier for residents to access information and report problems online. (Temporarily deployed, preview available upon request)",
     "icons": ["DiCodeigniter", "DiBootstrap"]
+  },
+  {
+    "title": "BKI Activity",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/bki.png",
+    "description": "An employee management platform for PT Biro Klasifikasi Indonesia (BKI). Features include geolocation-based attendance, planning, and task monitoring.",
+    "icons": ["BiLogoPhp", "DiBootstrap"]
   },
   {
     "title": "Mangrovia",
     "link": "https://mangrovia.onrender.com",
     "image": "/images/mangrovia.png",
-    "description": "Mangrove Identification Area, a Artificial Intelligence web app to identify types of mangroves that are suitable for planting on certain land and recognize types of mangroves based on images.",
+    "description": "AI-powered web app for identifying mangrove species and suitable planting areas based on land characteristics and recognize types of mangroves based on images.",
     "icons": ["SiDjango", "DiBootstrap"]
+  },
+  {
+    "title": "Seminar PSI",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/seminar.png",
+    "description": "Web app for managing seminar attendance and automating certificate generation for a government agency.",
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
   },
   {
     "title": "Infocus News",
     "link": "https://infocusnews.netlify.app",
     "image": "/images/infocus.png",
-    "description": "A news web app that utilizes Vue.js for the user interface, connected to the Laravel Rest API to perform data manipulation.",
+    "description": "News web application built with Vue.js and Laravel REST API, supporting article management and dynamic data fetching.",
     "icons": ["FaLaravel", "BiLogoVuejs", "BiLogoTailwindCss"]
   },
   {
-    "title": "Logistik Kelautan",
-    "link": "https://logkel-kdserang.upi.edu",
-    "image": "/images/lk.png",
-    "description": "This website presents all information regarding the Marine Logistics Study Program, Indonesian Education University.",
-    "icons": ["SiWordpress"]
-  },
-  {
-    "title": "RoboNoid",
-    "link": "https://robonoid.netlify.app",
-    "image": "/images/robonoid.png",
-    "description": "A responsive and interactive web app built with React.js that promotes the features of humanoid robots.",
-    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
-  },
-  {
-    "title": "CineTracker",
-    "link": "https://cinetracker.netlify.app",
-    "image": "/images/cinetracker.png",
-    "description": "A simple web app that uses React.js to store watched movie data and display it in a list, by retrieving data from the movie API.",
-    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
+    "title": "CineList",
+    "link": "https://cinelistt.netlify.app",
+    "image": "/images/cinelist.png",
+    "description": "A server-side rendered movie listing app built with Next.js and React.js, elegantly presenting a list of movies.",
+    "icons": ["SiNextdotjs", "BiLogoReact", "BiLogoTailwindCss"]
   },
   {
     "title": "Filmdex",
@@ -63,52 +77,38 @@
     "icons": ["BiLogoVuejs", "BiLogoTailwindCss"]
   },
   {
-    "title": "CineList",
-    "link": "https://cinelistt.netlify.app",
-    "image": "/images/cinelist.png",
-    "description": "A fetching website that leverages the React.js JavaScript framework, with Next.js for interaction with the API, elegantly presenting a list of movies.",
-    "icons": ["SiNextdotjs", "BiLogoReact", "BiLogoTailwindCss"]
+    "title": "CineTracker",
+    "link": "https://cinetracker.netlify.app",
+    "image": "/images/cinetracker.png",
+    "description": "A simple web app that uses React.js to store watched movie data and display it in a list, by retrieving data from third-party APIs for dynamic content fetching.",
+    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
   },
   {
-    "title": "COMBBIS",
-    "link": "https://sulthanizza.web.id/home.php",
-    "image": "/images/combbis.png",
-    "description": "Cartography Of Mangroves In The Bangka Belitung Islands, a web app for mapping mangroves in Bangka Belitung, including distribution, health and deforestation levels.",
-    "icons": ["BiLogoPhp", "DiBootstrap"]
+    "title": "RoboNoid",
+    "link": "https://robonoid.netlify.app",
+    "image": "/images/robonoid.png",
+    "description": "A responsive and interactive web app built with React.js that promotes the features of humanoid robots.",
+    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
   },
   {
     "title": "Pegawaiku",
-    "link": "https://pegawaiku.com.sulthanizza.web.id",
+    "link": "#LiveLink-Expired",
     "image": "/images/pegawaiku.png",
-    "description": "A web app for recording employee data that I developed as a practical competency test assignment for Junior Web Developer certification from the Badan Nasional Sertifikasi Profesi (BNSP).",
+    "description": "Employee data management system developed for Junior Web Developer from Badan Nasional Sertifikasi Profesi (BNSP).",
     "icons": ["FaLaravel", "BiLogoTailwindCss"]
   },
   {
-    "title": "ANDINI",
-    "link": "#Confidential-PrivateLink",
-    "image": "/images/andiniapp.png",
-    "description": "Aplikasi Pengajuan Dispenisasi Pernikahan Dini, a web application developed with partners in collaboration with PT. Arkatama Multi Solusindo to submit requests, attach the required documents, and monitor the status of early marriage applications efficiently.",
-    "icons": ["FaLaravel", "DiBootstrap"]
-  },
-  {
-    "title": "BKI Activity",
-    "link": "#Confidential-PrivateLink",
-    "image": "/images/bki.png",
-    "description": "An employee management platform for PT Biro Klasifikasi Indonesia (BKI) to log attendance, track time coordinates, and oversee planning and work activities seamlessly.",
+    "title": "COMBBIS",
+    "link": "#LiveLink-Expired",
+    "image": "/images/combbis.png",
+    "description": "Cartography web app for mapping mangroves in Bangka Belitung. Visualizes mangrove density, health, and deforestation levels.",
     "icons": ["BiLogoPhp", "DiBootstrap"]
   },
   {
-    "title": "Vehicle Report",
-    "link": "#Confidential-PrivateLink",
-    "image": "/images/ppli.png",
-    "description": "A web app for daily vehicle inspection reporting at PT Prasadha Pamunah Limbah Industri (PPLI), enabling efficient data recording, tracking, and analysis of vehicle checks to support operational accuracy and compliance.",
-    "icons": ["FaLaravel", "BiLogoTailwindCss"]
-  },
-  {
-    "title": "Seminar PSI",
-    "link": "#In-Development",
-    "image": "/images/seminar.png",
-    "description": "A seminar management system for the Meteorology, Climatology, and Geophysics Agency (BMKG), built to streamline attendance monitoring and automate certificate issuance.",
-    "icons": ["FaLaravel", "BiLogoTailwindCss"]
+    "title": "Logistik Kelautan",
+    "link": "https://logkel-kdserang.upi.edu",
+    "image": "/images/lk.png",
+    "description": "Official website for the Marine Logistics Study Program at Universitas Pendidikan Indonesia (UPI).",
+    "icons": ["SiWordpress"]
   }
 ]

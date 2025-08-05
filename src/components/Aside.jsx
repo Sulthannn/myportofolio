@@ -19,7 +19,7 @@ const Aside = () => {
       <div className="sidebar-info">
         <figure className="avatar-box">
           <img
-            src={"/images/sulthan.jpg"}
+            src={"/images/sulthan.JPG"}
             alt="Sulthan Izza Falqahi"
             width="80"
           />
@@ -76,7 +76,7 @@ const Aside = () => {
               </a>
             </div>
           </li>
-          <li className="contact-item">
+          {/* <li className="contact-item">
             <div className="icon-box">
               <FaSquareGitlab />
             </div>
@@ -87,7 +87,7 @@ const Aside = () => {
                 <address>gitlab.com/izzasulthan</address>
               </a>
             </div>
-          </li>
+          </li> */}
           <li className="contact-item">
             <div className="icon-box">
               <FaWhatsapp />
