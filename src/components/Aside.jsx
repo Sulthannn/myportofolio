@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { FaInstagram, FaWhatsapp, FaLocationDot, FaEnvelope, FaGithub, FaSquareGitlab, FaAngleDown } from "react-icons/fa6";
+import { FaInstagram, FaLocationDot, FaEnvelope, FaGithub, FaSquareGitlab, FaAngleDown, FaLinkedinIn } from "react-icons/fa6";
 import { initializeSidebar } from "../script";
 
 const Aside = () => {
@@ -19,7 +19,7 @@ const Aside = () => {
       <div className="sidebar-info">
         <figure className="avatar-box">
           <img
-            src={"/images/sulthan.JPG"}
+            src={"/images/sulthan.jpg"}
             alt="Sulthan Izza Falqahi"
             width="80"
           />
@@ -90,17 +90,17 @@ const Aside = () => {
           </li> */}
           <li className="contact-item">
             <div className="icon-box">
-              <FaWhatsapp />
+              <FaLinkedinIn />
             </div>
 
             <div className="contact-info">
-              <p className="contact-title">Phone</p>
-              <a href="tel:+628987859439" className="contact-link">
-                +62-898-7859-439
+              <p className="contact-title">LinkedIn</p>
+              <a href="https://www.linkedin.com/in/sulthanizza/" target="_blank">
+                <address>Sulthan Izza</address>
               </a>
             </div>
           </li>
-          <li className="contact-item">
+          {/* <li className="contact-item">
             <div className="icon-box">
               <FaInstagram />
             </div>
@@ -111,7 +111,7 @@ const Aside = () => {
                 <address>@sulthanizza_</address>
               </a>
             </div>
-          </li>
+          </li> */}
 
           <div className="cv-button-container">
             <a
