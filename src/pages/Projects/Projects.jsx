@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { FaLaravel } from "react-icons/fa6";
 import { BiLogoReact, BiLogoTailwindCss, BiLogoVuejs, BiLogoPhp } from "react-icons/bi";
-import { SiNextdotjs, SiLeaflet, SiDjango, SiWordpress, SiAxios } from "react-icons/si";
+import { SiNextdotjs, SiLeaflet, SiDjango, SiWordpress, SiAxios, SiExpress } from "react-icons/si";
 import { DiCodeigniter, DiBootstrap, DiJqueryLogo } from "react-icons/di";
 import ProjectsPost from './ProjectsPost';
 import './Projects.css'
@@ -19,13 +19,14 @@ const iconMap = {
   SiLeaflet: SiLeaflet,
   SiDjango: SiDjango,
   SiWordpress: SiWordpress,
-  SiAxios: SiAxios
+  SiAxios: SiAxios,
+  SiExpress: SiExpress
 };
 
 const Projects = () => {
   const [blogs, setBlogs] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(4); // Number of posts per page
+  const [postsPerPage] = useState(4);
 
   useEffect(() => {
     fetch('blogs.json')
@@ -35,12 +36,10 @@ const Projects = () => {
       })
   }, []);
 
-  // Get current posts
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = blogs.slice(indexOfFirstPost, indexOfLastPost);
 
-  // Change page
   const paginate = pageNumber => setCurrentPage(pageNumber);
 
   return (
@@ -66,7 +65,6 @@ const Projects = () => {
           })}
         </ul>
       </div>
-      {/* Pagination */}
       <nav>
         <ul className="pagination">
           <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>

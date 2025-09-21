@@ -27,6 +27,10 @@ const techData = [
     description: "Vue.js"
   },
   {
+    icon: "../images/express.svg",
+    description: "Express.js"
+  },
+  {
     icon: "../images/wp.png",
     description: "WordPress"
   }

@@ -70,11 +70,11 @@
     "icons": ["SiNextdotjs", "BiLogoReact", "BiLogoTailwindCss"]
   },
   {
-    "title": "Filmdex",
-    "link": "https://filmdex.netlify.app",
-    "image": "/images/filmdex.png",
-    "description": "A fetching website employing Vue.js to interact with an API, elegantly presenting a curated list of movies.",
-    "icons": ["BiLogoVuejs", "BiLogoTailwindCss"]
+    "title": "CinLi",
+    "link": "https://cinli.netlify.app",
+    "image": "/images/cinli.png",
+    "description": "A fetching website employing Vue.js and Express.js to interact with an API, elegantly presenting a curated list of movies.",
+    "icons": ["BiLogoVuejs", "SiExpress", "BiLogoTailwindCss"]
   },
   {
     "title": "CineTracker",
