@@ -49,6 +49,10 @@ const toolsData = [
     icon: "../images/sql.png",
     description: "SQL"
   },
+    {
+    icon: "../images/psql.png",
+    description: "PostgreSQL"
+  },
   {
     icon: "../images/boots.png",
     description: "Bootstrap"
@@ -56,6 +60,10 @@ const toolsData = [
   {
     icon: "../images/tailwind.svg",
     description: "Tailwind"
+  },
+  {
+    icon: "../images/fig.webp",
+    description: "Figma"
   }
 ];
 
