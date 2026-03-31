@@ -32,6 +32,16 @@
     color: #999;
     cursor: not-allowed;
   }
+
+  .page-link:disabled {
+    background-color: #ddd;
+    color: #999;
+    cursor: not-allowed;
+  }
+
+  .page-link:disabled:hover {
+    background-color: #ddd;
+  }
   
   .page-item.active .page-link {
     background-color: rgb(196, 218, 5);

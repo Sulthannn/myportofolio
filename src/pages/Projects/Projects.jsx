@@ -28,6 +28,8 @@ const Projects = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [postsPerPage] = useState(4);
 
+  const totalPages = Math.max(1, Math.ceil(blogs.length / postsPerPage));
+
   useEffect(() => {
     fetch('blogs.json')
       .then(response => response.json())
@@ -36,11 +38,21 @@ const Projects = () => {
       })
   }, []);
 
+  useEffect(() => {
+    setCurrentPage(prevPage => Math.min(Math.max(prevPage, 1), totalPages));
+  }, [totalPages]);
+
   const indexOfLastPost = currentPage * postsPerPage;
   const indexOfFirstPost = indexOfLastPost - postsPerPage;
   const currentPosts = blogs.slice(indexOfFirstPost, indexOfLastPost);
 
-  const paginate = pageNumber => setCurrentPage(pageNumber);
+  const paginate = (pageNumber) => {
+    const nextPage = Math.min(Math.max(pageNumber, 1), totalPages);
+    setCurrentPage(nextPage);
+  };
+
+  const canGoPrev = currentPage > 1;
+  const canGoNext = currentPage < totalPages;
 
   return (
     <section className="blog" data-page="blog">
@@ -67,20 +79,32 @@ const Projects = () => {
       </div>
       <nav>
         <ul className="pagination">
-          <li className={`page-item ${currentPage === 1 ? 'disabled' : ''}`}>
-            <button onClick={() => paginate(currentPage - 1)} className="page-link">
+          <li className={`page-item ${!canGoPrev ? 'disabled' : ''}`}>
+            <button
+              type="button"
+              onClick={() => paginate(currentPage - 1)}
+              className="page-link"
+              disabled={!canGoPrev}
+              aria-disabled={!canGoPrev}
+            >
               Previous
             </button>
           </li>
           {Array.from({ length: Math.ceil(blogs.length / postsPerPage) }, (_, index) => (
             <li key={index} className={`page-item ${currentPage === index + 1 ? 'active' : ''}`}>
-              <button onClick={() => paginate(index + 1)} className="page-link">
+              <button type="button" onClick={() => paginate(index + 1)} className="page-link">
                 {index + 1}
               </button>
             </li>
           ))}
-          <li className={`page-item ${currentPage === Math.ceil(blogs.length / postsPerPage) ? 'disabled' : ''}`}>
-            <button onClick={() => paginate(currentPage + 1)} className="page-link">
+          <li className={`page-item ${!canGoNext ? 'disabled' : ''}`}>
+            <button
+              type="button"
+              onClick={() => paginate(currentPage + 1)}
+              className="page-link"
+              disabled={!canGoNext}
+              aria-disabled={!canGoNext}
+            >
               Next
             </button>
           </li>

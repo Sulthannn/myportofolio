@@ -1,19 +1,5 @@
 [
   {
-    "title": "Vehicle Tax Digital Platform",
-    "link": "#",
-    "image": "/images/vehicle-tax.png",
-    "description": "Vehicle tax platform supporting payment processing, compliance tracking, and user management. Includes system revamp, performance optimization, and development of new modules to improve scalability and reliability for high-traffic public services. (Details available upon request)",
-    "icons": ["FaLaravel", "DiBootstrap"]
-  },
-  {
-    "title": "Vehicle Monitoring System",
-    "link": "#",
-    "image": "/images/bali.png",
-    "description": "Integrated system for vehicle registration, payment, and monitoring to support end-to-end operational control. Features include data validation, automated status updates, RFID processing, and violation handling with notification systems to ensure compliance. (Details available upon request)",
-    "icons": ["FaLaravel", "DiBootstrap"]
-  },
-  {
     "title": "Kalpataru",
     "link": "https://sitaru.kemenlh.go.id",
     "image": "/images/kalpataru.png",
@@ -21,10 +7,17 @@
     "icons": ["DiCodeigniter", "BiLogoTailwindCss"]
   },
   {
+    "title": "Insurance Service Platform",
+    "link": "#",
+    "image": "/images/insurance.png",
+    "description": "Digital insurance platform providing travel and accident coverage services with seamless user flows and reliable service processes. (Currently in development)",
+    "icons": ["FaLaravel", "DiBootstrap"]
+  },
+  {
   "title": "Whale Shark Tourism GIS",
-  "link": "#",
+  "link": "#Confidential-PrivateLink",
   "image": "/images/hiu.png",
-  "description": "Multilingual GIS web app to promote whale shark and information features ecotourism in Teluk Saleh. Built for Badan Riset dan Inovasi Nasional (BRIN).",
+  "description": "A multilingual GIS web app to promote whale shark and information features ecotourism in Teluk Saleh. Built for Badan Riset dan Inovasi Nasional (BRIN).",
   "icons": ["FaLaravel", "BiLogoTailwindCss"]
   },
   {
@@ -49,10 +42,10 @@
     "icons": ["DiCodeigniter", "DiBootstrap"]
   },
   {
-    "title": "Employee Activity",
+    "title": "BKI Activity",
     "link": "#Confidential-PrivateLink",
     "image": "/images/bki.png",
-    "description": "Employee management platform for a national company. Features include geolocation-based attendance, activity planning, and task monitoring to support operational productivity.",
+    "description": "An employee management platform for a national company. Features include geolocation-based attendance, planning, and task monitoring.",
     "icons": ["BiLogoPhp", "DiBootstrap"]
   },
   {
@@ -63,45 +56,66 @@
     "icons": ["SiDjango", "DiBootstrap"]
   },
   {
+    "title": "Seminar PSI",
+    "link": "#Confidential-PrivateLink",
+    "image": "/images/seminar.png",
+    "description": "Web app for managing seminar attendance and automating certificate generation for a government agency.",
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
+  },
+  {
     "title": "Infocus News",
     "link": "https://infocusnews.netlify.app",
     "image": "/images/infocus.png",
-    "description": "A dynamic news platform supporting article management and real-time content delivery through modern web technologies.",
+    "description": "News web application built with Vue.js and Laravel REST API, supporting article management and dynamic data fetching.",
     "icons": ["FaLaravel", "BiLogoVuejs", "BiLogoTailwindCss"]
   },
   {
     "title": "CineList",
     "link": "https://cinelistt.netlify.app",
     "image": "/images/cinelist.png",
-    "description": "A server-side rendered movie application providing curated film listings with fast and optimized content delivery.",
+    "description": "A server-side rendered movie listing app built with Next.js and React.js, elegantly presenting a list of movies.",
     "icons": ["SiNextdotjs", "BiLogoReact", "BiLogoTailwindCss"]
   },
   {
     "title": "CinLi",
     "link": "https://cinli.netlify.app",
     "image": "/images/cinli.png",
-    "description": "A web application for exploring curated movie data through API integration and interactive user interfaces.",
+    "description": "A fetching website employing Vue.js and Express.js to interact with an API, elegantly presenting a curated list of movies.",
     "icons": ["BiLogoVuejs", "SiExpress", "BiLogoTailwindCss"]
   },
-  {
+    {
     "title": "CineTracker",
     "link": "https://cinetracker.netlify.app",
     "image": "/images/cinetracker.png",
-    "description": "Movie tracking application that allows users to manage and display watched films using external data sources.",
+    "description": "A simple web app that uses React.js to store watched movie data and display it in a list, by retrieving data from third-party APIs for dynamic content fetching.",
     "icons": ["BiLogoReact", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "RoboNoid",
+    "link": "https://robonoid.netlify.app",
+    "image": "/images/robonoid.png",
+    "description": "A responsive and interactive web app built with React.js that promotes the features of humanoid robots.",
+    "icons": ["BiLogoReact", "BiLogoTailwindCss"]
+  },
+  {
+    "title": "Pegawaiku",
+    "link": "#LiveLink-Expired",
+    "image": "/images/pegawaiku.png",
+    "description": "Employee data management system developed for Junior Web Developer from Badan Nasional Sertifikasi Profesi (BNSP).",
+    "icons": ["FaLaravel", "BiLogoTailwindCss"]
   },
   {
     "title": "COMBBIS",
     "link": "#LiveLink-Expired",
     "image": "/images/combbis.png",
-    "description": "Cartography web app for mapping mangroves in Bangka Belitung. Visualizes mangrove density, health, and deforestation levels. (Temporarily deployed, preview available upon request)",
+    "description": "Cartography web app for mapping mangroves in Bangka Belitung. Visualizes mangrove density, health, and deforestation levels.",
     "icons": ["BiLogoPhp", "DiBootstrap"]
   },
   {
     "title": "Logistik Kelautan",
     "link": "https://logkel-kdserang.upi.edu",
     "image": "/images/lk.png",
-    "description": "Official academic website providing information and digital services for the Marine Logistics Study Program at Universitas Pendidikan Indonesia (UPI).",
+    "description": "Official website for the Marine Logistics Study Program at Universitas Pendidikan Indonesia (UPI).",
     "icons": ["SiWordpress"]
   }
 ]
