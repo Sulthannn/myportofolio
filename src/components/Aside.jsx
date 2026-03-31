@@ -49,7 +49,7 @@ const Aside = () => {
 
             <div className="contact-info">
               <p className="contact-title">Address</p>
-              <address>Bandung, Jawa Barat</address>
+              <address>Jakarta, DKI Jakarta</address>
             </div>
           </li>
           <li className="contact-item">
@@ -64,7 +64,7 @@ const Aside = () => {
               </a>
             </div>
           </li>
-          <li className="contact-item">
+          {/* <li className="contact-item">
             <div className="icon-box">
               <FaGithub />
             </div>
@@ -75,7 +75,7 @@ const Aside = () => {
                 <address>github.com/Sulthannn</address>
               </a>
             </div>
-          </li>
+          </li> */}
           {/* <li className="contact-item">
             <div className="icon-box">
               <FaSquareGitlab />
@@ -96,7 +96,7 @@ const Aside = () => {
             <div className="contact-info">
               <p className="contact-title">LinkedIn</p>
               <a href="https://www.linkedin.com/in/sulthanizza/" target="_blank">
-                <address>Sulthan Izza</address>
+                <address>Sulthan Izza Falqahi</address>
               </a>
             </div>
           </li>
